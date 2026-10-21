@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Data (too large for Git)
+data/raw/*
+data/test/*
+data/processed/*
+!data/**/.gitkeep
+
+# Generated outputs
+reports/csv/*
+reports/json/*
+reports/html/*
+reports/figures/*
+!reports/**/.gitkeep
+
+data/dataset/
+qa_output.txt
+debug_*.png
+
+# OS/editor
+.DS_Store
+.vscode/
